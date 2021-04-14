@@ -22,8 +22,8 @@ Route::post('make_post','PostsController@make_post');
 
 Route::get("teams","TeamsController@index");
 
-Route::get('/register', 'TeamsController@register')->name('register');
-Route::post("register_team",'TeamsController@register_team');
+Route::get('/teams_register', 'TeamsController@teams_register')->name('teams_register');
+Route::post("teams_register_act",'TeamsController@teams_register_act');
 
 
 Route::get('/home', 'HomeController@index')->name('home');

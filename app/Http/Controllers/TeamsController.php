@@ -13,9 +13,9 @@ class TeamsController extends Controller
 {
     //
     
-    public function register(){
+    public function teams_register(){
         return view ('teams_register');
-    }
+    }//クリアしてる
     
     public function index(){
         //投稿を全権取得
@@ -26,7 +26,7 @@ class TeamsController extends Controller
             ]);
     }
     
-    public function register_team(Request $request){
+    public function teams_register_act(Request $request){
         //バリデーション 
         $validator = Validator::make($request->all(), [
             'team_name' => 'required|max:225'

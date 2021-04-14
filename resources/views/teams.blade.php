@@ -2,7 +2,7 @@
 @extends('layouts.app')
 @section('content')
     <!-- Bootstrapの定形コード… -->
-    <a href='/register'>チーム登録がまだの方</a>
+    <a href='/teams_register'>チーム登録がまだの方</a>
     <!-- 全てのチームリスト -->
         @if (count($teams) > 0)
            <div class="card-body">

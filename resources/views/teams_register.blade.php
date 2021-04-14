@@ -11,7 +11,7 @@
         <!-- バリデーションエラーの表示に使用-->
         <!-- チーム登録 -->
         @if( Auth::check() )
-        <form action="{{ url('register_team') }}" method="POST" class="form-horizontal">
+        <form action="{{ url('teams_register_act') }}" method="POST" class="form-horizontal">
             {{ csrf_field() }}
             <!-- チーム名 -->
             <div class="form-group">
@@ -31,7 +31,7 @@
                 <div class="col-sm-6">
                     <input type="text" name="description" class="form-control">
                 </div>
-            </div>                        
+            </div>
             <!--　登録ボタン -->
             <div class="form-group">
                 <div class="col-sm-offset-3 col-sm-6">

@@ -33,7 +33,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                        <a href='/teams_register'><チーム登録></a>
+                        <a href='/teams'><チーム一覧></a>
+                        <a href='/posts'><試合相手募集></a>                        
                     </ul>
 
                     <!-- Right Side Of Navbar -->
