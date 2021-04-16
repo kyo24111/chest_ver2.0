@@ -40,7 +40,7 @@ class TeamsController extends Controller
         //以下に登録処理を記述（Eloquentモデル）
         $teams = new Team;
         $teams->team_name = $request->team_name;
-        $teams->user_id = Auth::id();//ここでログインしているユーザidを登録しています
+        $teams->user_id = Auth::id(); //ここでログインしているユーザidを登録しています
         $teams->home_studium = $request->home_studium;
         $teams->description = $request->description;
         $teams->save();

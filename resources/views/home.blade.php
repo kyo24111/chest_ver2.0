@@ -13,7 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    Let's play baseball !!!
+                    welcome!!!
                 </div>
             </div>
         </div>
